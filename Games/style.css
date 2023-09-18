@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "heebo", sans-serif;
+}
+
+body{
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #81049a;
+  height: 80px;
+
+}
+
+header #game{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 80px;
+}
+
+header #game .game-brand {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+header #game .game-list {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+header #game .game-list .game-item a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+header #game .game-list .game-item a:hover {
+  color: #020002;
+  transition: color 0.3s;
+
+}
+
+main {
+  margin-top: 6rem;
+}
+ 
+main #jogo {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+main #jogo .jogo-content .jogo-content-title {
+   font-size: 44px;
+   font-weight: 700;
+   line-height: 60px;
+   margin-bottom: 40px ;
+}
+
+main #jogo .jogo-content .jogo-content-subtitle{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 500px; 
+  margin-bottom: 38px;
+}
+main #jogo .jogo-content .jogo-content-btn {
+  background: linear-gradient(to bottom, #5c0259, #630378, #6f0385, #730280);
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 8px 24px;
+  border: none;
+  cursor: pointer;
+}
+main #jogo .jogo-content .jogo-content-btn .jogos-online a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main #jogo .jogo-image {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 300px;
+  border: 7px solid rgb(10, 10, 10);
+}
+
+@media (max-width: 920px) {
+    main #jogo{
+      flex-direction: column column-reverse;
+    }
+}
+
+section#Categorias{
+  margin-top: 71px;
+  background-color: #a92acc;
+}
+
+#Categorias .Categorias-content {
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#Categorias .Categorias-content .Categorias-content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+#Categorias .Categorias-content .Categorias-content-header .section-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#Categorias .Categorias-content .Categorias-content-header .view-all-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+#Categorias .Categorias-content .Categorias-cards {
+  display: flex;
+  gap: 2rem;
+}
+
+#Categorias .Categorias-content .Categorias-cards .Categoria-card {
+  background-color: #ffffff;
+  padding: 24px;
+  margin-bottom: 4rem;
+}
+
+#Categorias .Categorias-content .Categorias-cards .Categoria-card h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 37px;
+}
+
+#Categorias .Categorias-content .Categorias-cards .Categoria-card span {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  display: block;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  color: #ffffff;
+  padding: 20px;
+  text-align: center; 
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.footer-content img {
+  width: 40px; 
+  height: auto; 
+}
